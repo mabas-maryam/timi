@@ -2,17 +2,15 @@
 import Image from "next/image";
 import Logo from "../../../public/assets/logo.svg";
 import Link from "next/link";
-import { useState } from "react";
 import CustomButton from "@/app/component/common/CustomButton";
 
 const navLinks = [
-    { name: "Add Items", link: "/addItem" },
+    { name: "Add Items", link: "/add-item" },
     { name: "Contact", link: "/contact" },
     { name: "About Us", link: "/about-us" },
 ];
 
 const NavBar = () => {
-    const [open, setOpen] = useState(false);
 
     return (
         <nav className="container m-auto px-5 py-4 lg:px-0 flex justify-between items-center">
