@@ -3,9 +3,6 @@ import BgLogin from "../../../public/assets/bg-login.svg";
 import CustomInput from "@/app/component/common/CustomInput";
 import CustomButton from "@/app/component/common/CustomButton";
 import NavBar from "@/app/component/NavBar";
-import Hero from "@/app/component/Hero";
-import Feature from "@/app/component/Feature";
-import Footer from "@/app/component/Footer";
 
 export default function Home() {
   return (
