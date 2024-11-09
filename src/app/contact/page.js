@@ -1,38 +1,42 @@
 import Image from "next/image";
-import BgLogin from "../../../public/assets/bg-login.svg";
+import BgContact from "../../../public/assets/bg-contact.svg";
 import CustomInput from "@/app/component/common/CustomInput";
 import CustomButton from "@/app/component/common/CustomButton";
 import NavBar from "@/app/component/NavBar";
+import CustomTextArea from "@/app/component/common/CustomTextArea";
 
 export default function Home() {
   return (
       <>
           <NavBar />
 
-          <div className="grid grid-cols-2">
-              <div>
-                  <Image className="m-auto w-full" src={BgLogin} alt="login bg image" />
+          <div className="w-2/3 m-auto h-screen flex justify-center items-center">
+              <div className="flex justify-center items-center">
+                  <Image className="m-auto w-[428px]" src={BgContact} alt="login bg image" />
               </div>
-              <div className="flex flex-col items-center justify-center w-1/2 m-auto gap-8">
-                  <h2 className="font-bold text-[40px]">Log In</h2>
+              <div className="flex flex-col w-1/2 m-auto gap-8">
+                  <h2 className="font-bold text-[40px]">Contact Us</h2>
+                  <p className="">Get in touch for inventory management solutions.</p>
                   <div className="w-full flex flex-col gap-8">
                       <CustomInput
+                          type="text"
+                          inputLabel="Name"
+                          id="user-name"
+                      />
+                      <CustomInput
                           type="email"
-                          inputLabel="Enter your email"
+                          inputLabel="Email"
                           placeholder="mabas.maryammabas@gmail.com"
                           id="user-email"
                       />
-                      <CustomInput
-                          type="password"
-                          inputLabel="Enter your password"
-                          placeholder="*********************"
-                          id="user-password"
-                      />
+                     <CustomTextArea
+                        inputLabel="Message"
+                     />
                   </div>
-                  <div className="w-full">
+                  <div className="w-full text-end">
                       <CustomButton
-                          text="Login"
-                          btnClassName="bg-primary w-full"
+                          text="Send"
+                          btnClassName="bg-primary w-fit"
                       />
                   </div>
               </div>
