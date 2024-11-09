@@ -50,7 +50,7 @@ const Feature = () => {
                             Efficient and smart transactions
                         </h3>
                         <p className="text-xl">
-                            Explore how FoodInventoryPro's technology streamlines data into actionable insights, enhancing efficiency in food inventory management.
+                            Explore how FoodInventoryPro&#39;s technology streamlines data into actionable insights, enhancing efficiency in food inventory management.
                         </p>
 
                         <CustomButton text='Start managing food' btnClassName="bg-primary"/>
