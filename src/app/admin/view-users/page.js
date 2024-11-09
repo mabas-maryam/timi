@@ -1,5 +1,6 @@
 import SideNav from "@/app/component/admin/SideNav";
 import SearchBar from "@/app/component/common/SearchBar";
+import UserCard from "@/app/component/admin/UserCard";
 
 export default function Home() {
     return (
@@ -10,9 +11,18 @@ export default function Home() {
                 <SearchBar />
 
                 <h1 className="font-bold text-xl">Users</h1>
-                <hr />
-                <div className="py-10 flex flex-col gap-10">
 
+                <hr />
+
+                <div className="py-10 flex flex-col gap-10">
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
+                    <UserCard name="Mabas Maryam Idi" email="mabas.maryam@gmail.com" />
                 </div>
             </div>
         </div>
