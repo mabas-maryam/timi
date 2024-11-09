@@ -4,9 +4,9 @@ import {BiMenu, BiPlus, BiSearch} from "react-icons/bi";
 const SideNav = () => {
 
     const navLinks = [
-        { name: "Dashboard", link: "/add-item", icon: <BiMenu /> },
-        { name: "View Users", link: "/view-users", icon: <BiSearch /> },
-        { name: "Add Users", link: "/add-users", icon: <BiPlus /> },
+        { name: "Dashboard", link: "/admin/add-item", icon: <BiMenu /> },
+        { name: "View Users", link: "/admin/view-users", icon: <BiSearch /> },
+        { name: "Add Users", link: "/admin/add-users", icon: <BiPlus /> },
     ];
 
     return (
