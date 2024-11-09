@@ -19,7 +19,7 @@ const Feature = () => {
                             It revolutionizes the way food inventory is managed.
                         </p>
 
-                        <CustomButton text='Start managing food' btnClassName="bg-primary"/>
+                        <CustomButton text='Start managing food' btnClassName="bg-primary w-fit"/>
                     </div>
                     <div className="w-full lg:container">
                         <Image className="m-auto w-[446px]" src={Feature1} alt="Feature 1 image" />
@@ -53,7 +53,7 @@ const Feature = () => {
                             Explore how FoodInventoryPro&#39;s technology streamlines data into actionable insights, enhancing efficiency in food inventory management.
                         </p>
 
-                        <CustomButton text='Start managing food' btnClassName="bg-primary"/>
+                        <CustomButton text='Start managing food' btnClassName="bg-primary w-fit"/>
                     </div>
                     <div className="w-full lg:container">
                         <Image className="m-auto w-[446px]" src={Feature3} alt="Feature 3 image" />
